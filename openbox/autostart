@@ -1,0 +1,22 @@
+# drop shadows
+xcompmgr -cC -t-3 -l-5 -r5 &
+
+# panel
+tint2 &
+
+# volume control
+volumeicon &
+
+# Screensaver
+xscreensaver -no-splash &
+
+feh  --bg-scale '/home/ttpearso/Wallpaper/64064-AsciiDebian.png' &
+
+# Monitors
+(sleep 3s && conky -c ~/.conky/default) &
+
+## Start Clipboard manager
+(sleep 3s && parcellite) &
+
+# Network manager
+(sleep 3s && nm-applet) &

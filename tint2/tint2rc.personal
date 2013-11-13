@@ -1,0 +1,61 @@
+# background & borders
+rounded = 0
+border_width = 1
+background_color = #FFFFFF 0
+border_color = #FFFFFF 20
+
+# panel
+panel_monitor = all
+panel_position = bottom center
+panel_size = 100% 25
+panel_margin = 0 0
+panel_padding = 0 0
+font_shadow = 0
+panel_background_id = 0
+wm_menu = 0
+
+# taskbar
+taskbar_mode = multi_desktop
+taskbar_padding = 0 0 0
+taskbar_background_id = 1
+
+# tasks
+task_icon = 1
+task_text = 1
+task_width = 100
+task_centered = 1
+task_padding = 2 2
+task_font = sans 7
+task_font_color = #ffffff 70
+task_active_font_color = #ffffff 85
+task_background_id = 3
+task_active_background_id = 2
+
+# tooltip
+task_tooltip = 1
+tooltip_padding = 2 2
+tooltip_show_timeout = 0.7
+tooltip_hide_timeout = 0.3
+tooltip_font = sans 11
+
+# systray
+systray_padding = 4 2 3
+systray_background_id = 0
+
+# clock
+time1_format = %H:%M
+time1_font = sans 10
+time2_format = %a %d %B
+time2_font = sans 8
+clock_font_color = #ffffff 76
+clock_padding = 4 4
+clock_background_id = 0
+#clock_lclick_command = xterm -title Calendar -geometry 20x9-0-0 -e sh -c 'export cmd="wmctrl -r :ACTIVE:"; $cmd -e 9,1366,748,-1,-1;$cmd -b add,above;$cmd -b add,sticky;$cmd -b add,skip_taskbar;$cmd -b add,skip_pager;cal;sleep 5'
+clock_lclick_command = gsimplecal
+clock_rclick_command = gworldclock
+
+# mouse
+mouse_middle = none
+mouse_right = close
+mouse_scroll_up = toggle
+mouse_scroll_down = iconify
